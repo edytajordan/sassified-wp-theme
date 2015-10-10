@@ -1,0 +1,102 @@
+/*
+Error: Undefined mixin 'center-block'.
+        on line 6 of /home/ubuntu/workspace/wp-content/themes/edyta/sass/media/_captions.scss, in `center-block'
+        from line 6 of /home/ubuntu/workspace/wp-content/themes/edyta/sass/media/_captions.scss
+        from line 20 of /home/ubuntu/workspace/wp-content/themes/edyta/sass/media/_media.scss
+
+1: .page-content .wp-smiley,
+2: .entry-content .wp-smiley,
+3: .comment-content .wp-smiley {
+4: 	border: none;
+5: 	margin-bottom: 0;
+6: 	margin-top: 0;
+7: 	padding: 0;
+8: }
+9: 
+10: /* Make sure embeds and iframes fit their containers. *\/
+11: embed,
+
+Backtrace:
+/home/ubuntu/workspace/wp-content/themes/edyta/sass/media/_captions.scss:6:in `center-block'
+/home/ubuntu/workspace/wp-content/themes/edyta/sass/media/_captions.scss:6
+/home/ubuntu/workspace/wp-content/themes/edyta/sass/media/_media.scss:20
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:348:in `block in visit_mixin'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/stack.rb:98:in `block in with_mixin'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/stack.rb:98:in `with_mixin'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:346:in `visit_mixin'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/stack.rb:79:in `with_base'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:430:in `map'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/stack.rb:79:in `with_base'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:430:in `block (2 levels) in visit_rule'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:430:in `map'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:430:in `block in visit_rule'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:428:in `visit_rule'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/stack.rb:79:in `with_base'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:325:in `block (2 levels) in visit_import'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:325:in `map'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:325:in `block in visit_import'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/stack.rb:88:in `block in with_import'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/stack.rb:88:in `with_import'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/stack.rb:79:in `block in with_base'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/stack.rb:115:in `with_frame'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/stack.rb:79:in `with_base'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:52:in `map'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/base.rb:36:in `visit'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/root_node.rb:36:in `css_tree'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:209:in `each'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/plugin.rb:82:in `update_stylesheets'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/exec/sass_scss.rb:361:in `watch_or_update'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/exec/base.rb:52:in `parse'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/lib/sass/exec/base.rb:19:in `parse!'
+/usr/local/rvm/gems/ruby-2.2.1/gems/sass-3.4.14/bin/scss:13:in `<top (required)>'
+/usr/local/rvm/gems/ruby-2.2.1/bin/scss:23:in `load'
+/usr/local/rvm/gems/ruby-2.2.1/bin/scss:23:in `<main>'
+/usr/local/rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `eval'
+/usr/local/rvm/gems/ruby-2.2.1/bin/ruby_executable_hooks:15:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'center-block'.\A         on line 6 of /home/ubuntu/workspace/wp-content/themes/edyta/sass/media/_captions.scss, in `center-block'\A         from line 6 of /home/ubuntu/workspace/wp-content/themes/edyta/sass/media/_captions.scss\A         from line 20 of /home/ubuntu/workspace/wp-content/themes/edyta/sass/media/_media.scss\A \A 1: .page-content .wp-smiley,\A 2: .entry-content .wp-smiley,\A 3: .comment-content .wp-smiley {\A 4: 	border: none;\A 5: 	margin-bottom: 0;\A 6: 	margin-top: 0;\A 7: 	padding: 0;\A 8: }\A 9: \A 10: /* Make sure embeds and iframes fit their containers. */\A 11: embed,"; }
