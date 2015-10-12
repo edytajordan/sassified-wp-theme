@@ -29,7 +29,7 @@ gulp.task('scripts', function() {
         .pipe(gulp.dest('dist'))
         .pipe(rename('all.min.js'))
         .pipe(uglify())
-        .pipe(gulp.dest('js'));
+        .pipe(gulp.dest('dist'));
 });
 
 // Watch Files For Changes
